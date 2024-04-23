@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(rgba(8,11,11,0.5), rgba(8,10,10,0.5)), url('images/login1.jpeg');
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: black;
+}
+
+        .title {
+            text-align: center; /* This will center the text horizontally */
+            font-weight: bold; /* This will make the text bold */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* This will add a shadow to the text */
+            margin-top: 135px; /* This will move the title 3px down */
+            font-size: larger;
+            color: black; /* This will make the font color black */
+            background-color: rgba(255, 255, 255, 0.5); /* This will make the background color a shallow white */
+        }
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(56, 50, 50, 0.5);
+}
+
+.container,
+.row,
+.h2 {
+    text-align: right;
+}
+
+.login-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.login-form-1 {
+    padding: 5%;
+    background: white;
+    box-shadow: 15px 10px 15px 15px rgba(0, 0.3, 0.3, 0.3);
+}
+
+.login-form-1 h3 {
+    text-align: center;
+    color: black;
+}
+
+.login-form-2 {
+    padding: 5%;
+    background: black;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form-2 h3 {
+    text-align: center;
+    color: #fff;
+    background: black;
+}
+
+.login-container form {
+    padding: 10%;
+}
+
+.btnSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form-1 .btnSubmit {
+    font-weight: 600;
+    color: #fff;
+    background-color: black;
+}
+
+.login-form-2 .btnSubmit {
+    font-weight: 600;
+    color: black;
+    background-color: #ffff;
+}
+
+.login-form-2 .ForgetPwd {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-form-1 .ForgetPwd {
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
